@@ -5,12 +5,12 @@
 
 #Solution: I used basic knowlwdge of for loop and reverse indexing to reverse the string.
 
-# arr = [1,2,3]
-# rra = []
-# for i in range(len(arr), 0, -1):
-#     rra.append(i)
-# print("Given array  is: ", arr)
-# print("Reversed array is: ", rra)
+arr = [1,2,3]
+rra = []
+for i in range(len(arr), 0, -1):
+     rra.append(i)
+print("Given array  is: ", arr)
+print("Reversed array is: ", rra)
 
 
 # -----------------------------------------------------------------------------------------------------------------------------------
@@ -30,19 +30,19 @@
 
 #Solution: I used double for loop for double indexing and stored the output in a list(o) and then stored the list(o) in another list(out) and found its length to find desired output. 
 
-# n = [10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1]
-# k = 11
-# out = []
-# for i in range(len(n)):
-#     for j in range(i+1):
-#         if (n[i] + n[j] == k):
-#             o = []
-#             o.append(n[i])
-#             o.append(n[j])
-#             out.append(o)
-# print(out)
-# s = len(out)
-# print(s)
+n = [10, 12, 10, 15, -1, 7, 6, 5, 4, 2, 1, 1, 1]
+k = 11
+out = []
+for i in range(len(n)):
+    for j in range(i+1):
+         if (n[i] + n[j] == k):
+             o = []
+             o.append(n[i])
+             o.append(n[j])
+             out.append(o)
+print(out)
+s = len(out)
+print(s)
 
 # -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -58,10 +58,10 @@
 
 #Solution: I Used membership operator not in to find the missing number in array.
 
-# arr = [1, 2, 3, 5]
-# m =  max(arr)
-# for i in range(1,m+1):
-#     if (i not in arr):
-#         print("output: ", i)
+arr = [1, 2, 3, 5]
+m =  max(arr)
+for i in range(1,m+1):
+     if (i not in arr):
+         print("output: ", i)
 
 # -----------------------------------------------------------------------------------------------------------------------------------
